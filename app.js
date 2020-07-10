@@ -12,7 +12,7 @@ const ArtWorks = require ('./models/artists');
 
 const mongoose = require('mongoose'); 
 mongoose.Promise=global.Promise;
-mongoose.connect('mongodb+srv://dbUser:dbUser@cluster0.yy25u.gcp.mongodb.net/charityWater?retryWrites=true&w=majority' , { useNewUrlParser: true });; 
+mongoose.connect('link goes here' , { useNewUrlParser: true });; 
 
 var db=mongoose.connection; 
 var Schema = mongoose.Schema;
